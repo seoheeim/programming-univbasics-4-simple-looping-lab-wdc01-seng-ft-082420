@@ -20,8 +20,17 @@ end
 puts loop_message_n_time("Hello Moon.", 5)
 end
 
-def output_array
+def output_array(array)
+  count = 0 
+  while count < array.length do
+    puts array[count] 
+    count += 1 
+  end
 end
 
-def return_string_array 
+def return_string_array(array)
+  count = 0 
+  while count < array.length do 
+    count += 1 
+  end
 end 
