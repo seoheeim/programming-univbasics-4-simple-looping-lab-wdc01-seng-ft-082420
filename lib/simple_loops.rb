@@ -9,7 +9,11 @@ end
 end
 
 def loop_message_n_times(message, number)
-  message = "Hello Moon!"
+  counter = 0 
+  while counter < number
+  puts message
+  count += 1 
+end
 end
 
 def output_array
